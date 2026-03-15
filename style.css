@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: flex-start;
+    background-image: url("images/orb.png");
+    background-repeat: repeat;
+    background-size: 64px 64px;
+}
+.panel {
+	margin-top: 20vh;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+
+    width: 400px;
+	height: 1400px;
+	
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
