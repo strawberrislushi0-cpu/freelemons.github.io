@@ -11,12 +11,12 @@ body {
 }
 .panel {
 	margin-top: 20vh;
-    background: white;
+    background: grey;
     padding: 40px;
     border-radius: 10px;
 
     width: 400px;
-	height: 1400px;
+	height: 350px;
 	
     text-align: center;
 
