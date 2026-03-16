@@ -1,1 +1,70 @@
+/* Page background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    min-height: 100vh;
+
+    background-color: #222;
+    background-image: url("images/background.png");
+    background-size: cover;
+}
+
+/* Center panel */
+.panel {
+    margin-top: 50vh;
+
+    background: rgba(255,255,255,0.9);
+    padding: 40px;
+
+    border-radius: 10px;
+    width: 400px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* Header */
+#head {
+    margin-top: 0;
+}
+
+/* Input fields */
+input {
+    margin: 5px;
+    padding: 6px;
+    width: 150px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button */
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #4CAF50;
+    color: white;
+
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Result text */
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}
