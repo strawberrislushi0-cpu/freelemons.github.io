@@ -2,7 +2,7 @@ import { Client, Account, Databases, ID } from "https://cdn.jsdelivr.net/npm/app
 
 const client = new Client()
   .setEndpoint("https://cloud.appwrite.io/v1")
-  .setProject("YOUR_PROJECT_ID");
+  .setProject("freelemonsrom");
 
 const account = new Account(client);
 const databases = new Databases(client);
@@ -21,7 +21,7 @@ async function sendMessage() {
   const text = document.getElementById("messageInput").value;
 
   await databases.createDocument(
-    "DB_ID",
+    "69cbfdfd000805ac7533",
     "messages",
     ID.unique(),
     {
@@ -36,7 +36,7 @@ async function sendMessage() {
 
 async function loadMessages() {
   const res = await databases.listDocuments(
-    "DB_ID",
+    "69cbfdfd000805ac7533",
     "messages"
   );
 
